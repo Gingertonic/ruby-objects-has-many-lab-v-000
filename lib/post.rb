@@ -7,6 +7,5 @@ class Post
 
   def author_name
     self.author ? @author.name : nil
-    end
   end
 end
