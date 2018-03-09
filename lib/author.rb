@@ -15,4 +15,5 @@ class Author
     posttitle = Post.new
     posttitle.author = self
     @posts << posttitle
+  end
 end
